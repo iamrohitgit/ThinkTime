@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.ThinkTime.scripts.TestPresenceOfElements">
+        <methods>
+          <include name="launch"/>
+          <include name="presenceOfElement"/>
+        </methods>
+      </class> <!-- com.ThinkTime.scripts.TestPresenceOfElements -->
+      <class name="com.ThinkTime.scripts.TestLoginPage">
+        <methods>
+          <include name="testLoginPage"/>
+        </methods>
+      </class> <!-- com.ThinkTime.scripts.TestLoginPage -->
+      <class name="com.ThinkTime.scripts.TestAddCorporateTaskPage">
+        <methods>
+          <include name="testRequiredFields"/>
+          <include name="testACTPage"/>
+          <include name="testEnabledFields"/>
+        </methods>
+      </class> <!-- com.ThinkTime.scripts.TestAddCorporateTaskPage -->
+      <class name="com.ThinkTime.scripts.TestDashboards">
+        <methods>
+          <include name="testDashboards"/>
+        </methods>
+      </class> <!-- com.ThinkTime.scripts.TestDashboards -->
+      <class name="com.ThinkTime.scripts.TestLevelBoxValues">
+        <methods>
+          <include name="testLevelBoxValues"/>
+        </methods>
+      </class> <!-- com.ThinkTime.scripts.TestLevelBoxValues -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
